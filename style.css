@@ -1,0 +1,201 @@
+.container{
+    display: grid;
+     grid-template-areas: 
+     "Nav Nav Nav Nav Nav"
+     "Banner Banner Banner Banner Side"
+     "Movie Movie Flag Flag Side"
+     "Movie Movie Flag Flag Side"
+     "Footer Footer Footer Footer Footer";
+     row-gap: 20px;
+     column-gap: 10px;
+     grid-template-rows: auto auto auto auto auto;
+     grid-template-columns: auto auto auto auto auto;
+
+ }
+ body{
+    background-color: rgb(40,40,40);
+ }
+ h1{
+    color: crimson;
+    display: inline;
+    font-family: "Teko", sans-serif;
+    font-size: 48px;
+    margin-top: 10px;
+    font-weight: 300;
+    
+ }
+ .item-a{
+    grid-area: Nav;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+ }
+ 
+ .teko-family {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-weight: 300;
+  }
+ .imageNAV{
+    display: inline;
+    padding-right: 13px;
+    float: right;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+ }
+.item-c{
+    grid-area: Banner;
+    
+      height: auto;
+       width: 100%;
+       max-width: 1540px;
+       max-height: 380px;
+       object-fit: cover;
+    
+ }
+ 
+ .item-d{
+    grid-area: Side;
+    background-color: rgb(59,59,59);
+    max-width: 360px;
+ }
+.bottomleft{
+   display: flexbox;
+
+}
+.item-f{
+   grid-area: Movie;
+   background-color: rgb(59,59,59);
+   max-width: 700px;
+   border-top:5px solid rgb(187, 9, 8);;
+   
+}
+.floatL{
+   float: left;
+}
+.floatR{
+   float:right;
+}
+.floatrf{
+   float: right;
+}
+p{
+   color:white;
+}
+h2{
+   color: red;
+   font-size: 40px;
+   padding-bottom: 0%;
+   display: inline;
+}
+.fl{
+   display: flex;
+}
+
+.whitetext{
+   color: white;
+}
+.pad1{
+   margin-left: 10px;
+}
+.blackback{
+   background-color: black;
+}
+a{
+   color: rgb(34, 193, 203);
+   display: inline;
+}
+.cen{
+   align-self: center;
+}
+.imgsign{
+max-height: 410px;
+max-width: 310px;
+float: inline-start;
+margin-right: 15px;
+}
+.item-g{
+   grid-area: Flag;
+   max-width: 700px;
+   background-color: rgb(59,59,59);
+   border-top:5px solid rgb(187, 9, 8);;
+}
+.fla{
+   height: 229;
+   max-width: 640px;
+   object-fit: cover;
+}
+.item-h{
+   grid-area: Footer;
+   background-color: black;
+   width: 100%;
+   
+}
+.fnt18{
+   font-size: 18px;
+   flex-wrap: wrap;
+   font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: 0%;
+  color: white;
+  
+}
+.blktxt{
+   color: black;
+}
+.flxr{
+   flex-wrap: wrap;
+   font-family: "Rock Salt", cursive;
+   font-size: 30px;
+   margin-top: 0%;
+}
+.fltl{
+   float: left;
+}
+.price{
+   font-size: 72px;
+
+}
+
+.ftlb{
+   justify-self: baseline;
+   padding: 15px;
+   
+}
+.pads{
+   margin-left: 100px;
+   font-family: "Teko", sans-serif;
+   font-size: 18px;
+}
+.flotR{
+   
+   font-size: 72px;
+   font-family: "Teko", sans-serif;
+   display: inline;
+   margin-left: 100px;
+   margin-top: 15px;
+   text-decoration-line: underline;
+   text-decoration-color: white;
+}
+.padw{
+   margin-right: 10px;
+}
+.flgtxt{
+   font-size: 24px;
+   padding: 10px;
+}
+.txtside{
+   text-align: center;
+   font-size: 18px;
+   color: white;
+   margin: 18px;
+   font-family: "Roboto", sans-serif;
+   
+}
+.fot{
+   font-size: 12px;
+   font-family: "Teko", sans-serif;
+   
+}
